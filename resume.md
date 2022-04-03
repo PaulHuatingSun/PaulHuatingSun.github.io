@@ -16,7 +16,7 @@ Core Coursework: Computer Programming, Statistical Methods, Data Science, Machin
 # PROFESSIONAL EXPERIENCE
 ## R Package Development and Documentation
     Package Developer	
-    •	   Developed, tested, and explained an R package that includes self-made statistical and machine learning methods like t-test, linear regression, and k-nearest neighbor algorithm.
+    •	Developed, tested, and explained an R package that includes self-made statistical and machine learning methods like t-test, linear regression, and k-nearest neighbor algorithm.
     •	Documented the functions by including information like purpose of function, input parameters, output, and examples.
     •	Created a detailed vignette with various examples and the use of all functions with the penguins data. 
     •	Uploaded the package to GitHub and shared to the public.
