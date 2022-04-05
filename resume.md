@@ -1,5 +1,5 @@
 # Huating Sun
-# paulsun8b8@gmail.com
+### paulsun8b8@gmail.com
 
 # EDUCATION
 University of Washington – Seattle Campus
@@ -7,6 +7,9 @@ Geography Major (Data Science Track)
 GPA: 3.80/4.00 (Dean’s List for 8 times)	
 Core Coursework: Computer Programming, Statistical Methods, Data Science, Machine Learning, Data Visualization, Geographic Information System     
 
+# ABOUT ME
+
+> A motivated student who is currently studying at the University of Washington. Have decent experience in data science and database management. Has the ability to think critically and implement ideas to help the company. Willing to communicate with team members. Excited to learn new skills during collaboration.
 
 # TECHNICAL PROFICIENCIES
 - Computer Skills: Proficient in R, SQL, Python, Java, Tableau, PyCharm, IntelliJ IDEA, Jupyter Notebook, RStudio, Microsoft Office
