@@ -36,3 +36,5 @@ Core Coursework: Computer Programming, Statistical Methods, Data Science, Machin
 - Maintained weekly coverage of industry and company-related news to provide insights on Chinese luxury resale e-commerce platforms for the team.
 - Drafted reports by analyzing financial statements data, and calculated price to sales and price to earnings ratio.
 - Created charts that compared the values of the companies to help the management class at [CDH Investment](https://www.cdhfund.com/index.php?m=content&c=index&a=english_index) in making investment decisions of secondhand E-commerce companies.
+
+![Shanghai, China](https://theplanetd.com/images/things-to-do-in-shanghai-1.jpg)
