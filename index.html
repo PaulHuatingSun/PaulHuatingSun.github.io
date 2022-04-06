@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,39 +6,101 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>The Big Picture - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/Profile.jpg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
+    <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Huating Sun</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Proffesional Experience</a></li>
+                </ul>
             </div>
         </nav>
         <!-- Page Content-->
-        <section>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-6">
-                        <h1 class="mt-5">The Big Picture</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Huating 
+                        <span class="text-primary">Sun</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        910 John Street, Seattle, Washington, 98109
+                        <a href="mailto:name@email.com">paulsun8b8@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">A motivated student who is currently studying at the University of Washington. Have decent experience in data science and database management. Has the ability to think critically and implement ideas to help the company. Willing to communicate with team members. Excited to learn new skills during collaboration.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Washington – Seattle Campus</h3>
+                            <div class="subheading mb-3">Geography Major (Data Science Track)</div>
+                            <div>GPA: 3.80/4.00 (Dean’s List for 8 times)</div>
+                            <div>Core Coursework: Computer Programming, Statistical Methods, Data Science, Machine Learning, Data Visualization, Geographic Information System</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Proffesional Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">R Package Development and Documentation</h3>
+                            <div class="subheading mb-3">Package Developer</div>
+                            <p>- Developed, tested, and explained an R package that includes self-made statistical and machine learning methods like t-test, linear regression, and k-nearest neighbor algorithm.
+                            <p>- Documented the functions by including information like purpose of function, input parameters, output, and examples.ette with various examples and the use of all functions with the penguins data. 
+                            <p>- Created a detailed vign
+                            <p>-Uploaded the package to GitHub and shared to the public.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Racial Equality and Criminal Justice System Analysis</h3>
+                            <div class="subheading mb-3">Project Researcher</div>
+                            <p>- Used confusion matrices to understand the controversy around Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) algorithm used to estimate the recidivism rate in the U.S. criminal justice system.
+                            <p>- Calculated the accuracy of the COMPAS classification for African Americans and Caucasians and found errors.
+                            <p>- Discovered the issue of racial bias in the COMPAS algorithm and developed a logistic regression model that performed better than the COMPAS algorithm in terms of fairness.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">CDH Investment</h3>
+                            <div class="subheading mb-3">Private Equity Group Intern</div>
+                            <p>- Gathered, organized, and compared the cash flow and valuation data such as revenue, profit, pre and post money valuation of different companies in the secondhand E-commerce industry. 
+                            <p>- Maintained weekly coverage of industry and company-related news to provide insights on Chinese luxury resale e-commerce platforms for the team.
+                            <p>- Drafted reports by analyzing financial statements data, and calculated price to sales and price to earnings ratio.
+                            <p>- Created charts that compared the values of the companies to help the management class at CDH Investment in making investment decisions of secondhand E-commerce companies.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <hr class="m-0" />
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
